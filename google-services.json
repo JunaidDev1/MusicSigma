@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "141282296711",
+    "firebase_url": "https://music-sigma.firebaseio.com",
+    "project_id": "music-sigma",
+    "storage_bucket": "music-sigma.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141282296711:android:d8c7cfbf8b2d1f25e50922",
+        "android_client_info": {
+          "package_name": "com.music.sigma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141282296711-9lh00g1aplhvdhvpvjtllktc2sqkefnt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.music.sigma",
+            "certificate_hash": "d43032a86c905ef37df1b2ae755a6910fe8cc185"
+          }
+        },
+        {
+          "client_id": "141282296711-mvhopnaev80hm4nc0cp576n2l3acvttr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrGyWjhc4tYq3ykhqCfjH_DfqJPE-cwD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141282296711-mvhopnaev80hm4nc0cp576n2l3acvttr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

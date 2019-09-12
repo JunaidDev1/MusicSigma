@@ -1,0 +1,34 @@
+<!--
+  Generated template for the PreHomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Musicsigma</ion-title>
+    <ion-buttons end>
+      <ion-item no-lines>
+        <ion-select interface="popover">
+          <ion-option selected>English</ion-option>
+          <ion-option>Arabic</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h1>My Account</h1>
+  <p>You are not subscribed user to view details.</p>
+  <p>Click on below link to go home page/subscribe.</p>
+  <button (click)="homePage()" block ion-button clear style="color: rgb(82, 82, 255);">Home Page</button>
+  <div class="center bg-dark" padding>
+    <p class="white mt-0 mb-0">© 2018 Musicsigma. All Right Reserved.</p>
+  </div>
+
+</ion-content>

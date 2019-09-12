@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Musicsigma</ion-title>
+    <ion-buttons end>
+      <ion-item no-lines>
+        <ion-select interface="popover">
+          <ion-option selected>English</ion-option>
+          <ion-option>Arabic</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-slides pager autoplay="1000" loop="true" speed="1500">
+    <ion-slide>
+      <img src="./assets/imgs/s1.png">
+    </ion-slide>
+    <ion-slide>
+      <img src="/assets/imgs/s2.png ">
+    </ion-slide>
+    <ion-slide>
+      <img src="./assets/imgs/s1.png">
+    </ion-slide>
+    <ion-slide>
+      <img src="/assets/imgs/s2.png ">
+    </ion-slide>
+  </ion-slides>
+
+  <h2>Discover Music Videos <img src="./assets/imgs/music.png"></h2>
+  <ion-scroll scrollX="true" direction="x">
+    <div class="anItem bg-light" (click)="activateTab(0)" [ngClass]="tabs.tab0">
+      <p class="center">Best Songs</p>
+    </div>
+    <div class="anItem bg-light" (click)="activateTab(1)" [ngClass]="tabs.tab1">
+      <p class="center">Popular Songs</p>
+    </div>
+    <div class="anItem bg-light" (click)="activateTab(2)" [ngClass]="tabs.tab2">
+      <p class="center">Classical Songs</p>
+    </div>
+    <div class="anItem bg-light" (click)="activateTab(3)" [ngClass]="tabs.tab3">
+      <p class="center">Modern Songs</p>
+    </div>
+    <div class="anItem bg-light" (click)="activateTab(4)" [ngClass]="tabs.tab4">
+      <p class="center">Traditional Songs</p>
+    </div>
+  </ion-scroll>
+
+  <h2>Best Songs <img src="./assets/imgs/music.png"></h2>
+
+  <ion-row (click)="playVideo()">
+    <ion-col col-6>
+      <img src="./assets/imgs/Video-Placeholder.jpg">
+    </ion-col>
+    <ion-col col-6>
+      <img src="./assets/imgs/Video-Placeholder.jpg">
+    </ion-col>
+    <ion-col col-6>
+      <img src="./assets/imgs/Video-Placeholder.jpg">
+    </ion-col>
+    <ion-col col-6>
+      <img src="./assets/imgs/Video-Placeholder.jpg">
+    </ion-col>
+  </ion-row>
+
+  <div class="center bg-dark" padding>
+    <p class="white mt-0 mb-0">© 2018 Musicsigma. All Right Reserved.</p>
+  </div>
+
+</ion-content>

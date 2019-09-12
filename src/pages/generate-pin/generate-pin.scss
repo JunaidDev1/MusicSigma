@@ -1,0 +1,26 @@
+page-generate-pin {
+  ion-content {
+    background: url("../assets/imgs/bg.jpg") center no-repeat;
+    background-size: cover;
+    h5 {
+      font-weight: normal !important;
+    }
+    ion-item {
+      padding-left: 0px !important;
+      ion-input,
+      .text-input {
+        text-align: center;
+      }
+    }
+    button {
+      width: 150px;
+    }
+    ul {
+      padding-left: 10px !important;
+
+      li {
+        font-size: 12px;
+      }
+    }
+  }
+}

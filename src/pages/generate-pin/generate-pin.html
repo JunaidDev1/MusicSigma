@@ -1,0 +1,48 @@
+<!--
+  Generated template for the GeneratePinPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title>generate-pin</ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content padding>
+  <ion-grid>
+    <div text-center class="white">
+      <h2 class="mt-2 mb-3">Music Sigma</h2>
+      <h5>Click on below subscription option to enjoy HD Video Songs</h5>
+      <p style="font-size: 14px; margin: 1.5em 0em;">Note: All packs are an auto renewel</p>
+      <div style="padding: 0px 50px;">
+        <ion-item>
+          <ion-input [(ngModel)]="msisdn" type="text" placeholder="Enter Your MSISDN"></ion-input>
+        </ion-item>
+      </div>
+      <button (click)="sendPin(msisdn)" class="mt-2" round ion-button color="secondary">Send Pin</button>
+      <h5>DZD 25 / Daily</h5>
+      <h5>Music Sigma is a subscription portal of HD Video Songs.</h5>
+    </div>
+
+    <div id="recaptcha-container"></div>
+
+    <div class="white mt-3">
+      <h5>Mobclixs's Terms & Conditions</h5>
+      <ul>
+        <li>Service available for Ooredoo users</li>
+        <li>By subscribing it is understood that the user has read, understood and accepted the Terms and Conditions of
+          the Music Sigma service</li>
+        <li>The cost 25 DZD daily, The service will be charged to your bill (Postpaid Users) or from your balance
+          (Prepaid Users)</li>
+        <li>To unsubscribe, send UNSUB GOM to the dialing XXXX from your cell phone or contact support@mobclixs.com</li>
+        <li>Product support: support@mobclixs.com</li>
+      </ul>
+      <p style="color: #da1">Read Mobclixs's Terms & Conditions here.</p>
+    </div>
+
+    <p class="center white" style="font-size: 12px;">© 2017 All Right Reserved</p>
+  </ion-grid>
+
+</ion-content>
