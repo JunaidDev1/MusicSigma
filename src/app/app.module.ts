@@ -4,6 +4,8 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { GeneratePinPage } from '../pages/generate-pin/generate-pin';
+import { PreHomePage } from '../pages/pre-home/pre-home';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -11,7 +13,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import * as firebase from 'firebase';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UtilsProvider } from '../providers/utils/utils';
-
 
 
 // Your web app's Firebase configuration
@@ -27,11 +28,14 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    PreHomePage,
+    GeneratePinPage
   ],
   imports: [
     BrowserModule,
@@ -43,7 +47,9 @@ firebase.initializeApp(firebaseConfig);
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    PreHomePage,
+    GeneratePinPage
   ],
   providers: [
     StatusBar,
